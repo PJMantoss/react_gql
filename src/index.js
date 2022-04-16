@@ -6,7 +6,9 @@ import { ApolloClient, InMemoryCache } from '@apollo/client/core';
 
 //https://github.com/PJMantoss/react_gql
 
-const client = new ApolloClient({});
+const client = new ApolloClient({
+  uri: ""
+});
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
