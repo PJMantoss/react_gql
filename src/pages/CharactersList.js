@@ -19,6 +19,8 @@ const CharactersList = () => {
   //Or
   const { error, loading, data} = useQuery(GET_CHARACTERS); //Destructured
   console.log({ error, loading, data});
+
+  if(loading) return <div>spinner...</div>
   
   return (
     <div>CharactersList</div>
