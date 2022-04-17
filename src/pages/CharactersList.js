@@ -15,6 +15,7 @@ const GET_CHARACTERS = gql`
 `;
 
 const CharactersList = () => {
+  const obj = useQuery(GET_CHARACTERS)
   return (
     <div>CharactersList</div>
   )
