@@ -6,7 +6,7 @@ const GET_CHARACTERS = gql`
         characters{
           results {
               id
-              nam
+              name
               image
               gender
           }
@@ -26,7 +26,9 @@ const CharactersList = () => {
 
   return <div></div>
   
-  
+  return (
+    <div></div>
+  )
 }
 
 export default CharactersList
