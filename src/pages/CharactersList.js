@@ -17,7 +17,7 @@ const GET_CHARACTERS = gql`
 const CharactersList = () => {
   //const obj = useQuery(GET_CHARACTERS); 
   //Or
-  const { error, loading, data} = useQuery(GET_CHARACTERS);
+  const { error, loading, data} = useQuery(GET_CHARACTERS); //Destructured
 
   return (
     <div>CharactersList</div>
