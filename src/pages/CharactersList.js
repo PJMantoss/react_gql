@@ -29,7 +29,7 @@ const CharactersList = () => {
       {data.characters.results.map((character) => {
         return (
           <div key={character.id}>
-            <img src={character.image} />
+            <img src={character.image} alt={character.name} />
             <h2>{character.name}</h2>
           </div>
         )
