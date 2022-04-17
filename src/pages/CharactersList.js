@@ -26,11 +26,13 @@ const CharactersList = () => {
   
   return (
     <div className='characterList'>
-      {data.characters.result.map(character => {
-        return <div>
-          <img src={character.image} />
-          <h2>{character.name}</h2>
-        </div>
+      {data.characters.results.map(character => {
+        return (
+          <div>
+            <img src={character.image} />
+            <h2>{character.name}</h2>
+          </div>
+        )
       })}
     </div>
   )
