@@ -27,7 +27,10 @@ const CharactersList = () => {
   return (
     <div className='characterList'>
       {data.characters.result.map(character => {
-        return <div></div>
+        return <div>
+          <img src={character.image} />
+          <h2></h2>
+        </div>
       })}
     </div>
   )
