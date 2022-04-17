@@ -19,12 +19,6 @@ const CharactersList = () => {
   //Or
   const { error, loading, data} = useQuery(GET_CHARACTERS);
 
-  obj.error;
-
-  obj.loading;
-
-  obj.data;
-
   return (
     <div>CharactersList</div>
   )
