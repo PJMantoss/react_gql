@@ -28,7 +28,7 @@ const CharactersList = () => {
     <div className='characterList'>
       {data.characters.results.map(character => {
         return (
-          <div>
+          <div key={character.id}>
             <img src={character.image} />
             <h2>{character.name}</h2>
           </div>
