@@ -23,7 +23,7 @@ const CharactersList = () => {
   if(loading) return <div>spinner...</div>
   
   return (
-    <div>CharactersList</div>
+    <div></div>
   )
 }
 
