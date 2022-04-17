@@ -25,7 +25,7 @@ const CharactersList = () => {
   if(error) return <div>something went wrong...</div>
   
   return (
-    <div></div>
+    <div className='characterList'></div>
   )
 }
 
