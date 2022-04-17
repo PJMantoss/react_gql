@@ -25,7 +25,9 @@ const CharactersList = () => {
   if(error) return <div>something went wrong...</div>
   
   return (
-    <div className='characterList'></div>
+    <div className='characterList'>
+      {data.characters.result.map()}
+    </div>
   )
 }
 
