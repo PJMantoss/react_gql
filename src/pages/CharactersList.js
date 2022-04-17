@@ -23,8 +23,6 @@ const CharactersList = () => {
   if(loading) return <div>spinner...</div>
 
   if(error) return <div>something went wrong...</div>
-
-  return <div></div>
   
   return (
     <div></div>
