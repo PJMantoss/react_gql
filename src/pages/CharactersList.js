@@ -19,7 +19,7 @@ const CharactersList = () => {
 
   obj.error;
 
-  obj.loading
+  obj.loading;
 
   obj.data
 
