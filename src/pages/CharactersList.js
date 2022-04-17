@@ -6,7 +6,7 @@ const GET_CHARACTERS = gql`
         characters{
           results {
               id
-              name
+              nam
               image
               gender
           }
