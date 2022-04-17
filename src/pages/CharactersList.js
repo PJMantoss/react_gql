@@ -19,6 +19,8 @@ const CharactersList = () => {
 
   obj.error
 
+  obj.loading
+
   return (
     <div>CharactersList</div>
   )
