@@ -26,7 +26,9 @@ const CharactersList = () => {
   
   return (
     <div className='characterList'>
-      {data.characters.result.map()}
+      {data.characters.result.map(character => {
+        return <div></div>
+      })}
     </div>
   )
 }
