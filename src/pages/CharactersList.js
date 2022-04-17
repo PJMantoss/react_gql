@@ -21,7 +21,7 @@ const CharactersList = () => {
 
   obj.loading;
 
-  obj.data
+  obj.data;
 
   return (
     <div>CharactersList</div>
