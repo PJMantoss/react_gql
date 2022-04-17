@@ -17,7 +17,7 @@ const GET_CHARACTERS = gql`
 const CharactersList = () => {
   const obj = useQuery(GET_CHARACTERS);
 
-  obj.error
+  obj.error;
 
   obj.loading
 
