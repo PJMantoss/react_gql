@@ -14,4 +14,6 @@ const GET_CHARACTERS = gql`
 }
 `;
 
-export const useCharacter = () => {};
+export const useCharacter = () => {
+    const { error, loading, data} = useQuery(GET_CHARACTER, {}); //Destructured
+};
