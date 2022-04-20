@@ -28,4 +28,4 @@ const useCharacters = () => {
   }
 }
 
-export default useCharacters
+export default useCharacters;
