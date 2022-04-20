@@ -23,7 +23,8 @@ const useCharacters = () => {
 
   return {
       error,
-      loading
+      loading,
+      data
   }
 }
 
