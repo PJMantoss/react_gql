@@ -1,4 +1,4 @@
-import { Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import CharactersList from './pages/CharactersList';
 
@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <CharactersList />
+        <Route exact path='/' component={<CharactersList />} />
       </Routes>
     </div>
   );
