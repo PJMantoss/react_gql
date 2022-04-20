@@ -2,15 +2,16 @@ import { useQuery, gql } from '@apollo/client';
 
 const GET_CHARACTERS = gql`
     query {
-        characters{
-          results {
-              id
-              name
-              image
-              gender
-          }
+        character (id: 2) {
+            name
+            id
+            image
+            episode {
+            name
+            episode
+            }
         }
-    }
+}
 `;
 
 export const useCharacter = () => {};
