@@ -26,5 +26,3 @@ const useCharacters = () => {
       data
   }
 }
-
-export default useCharacters;
