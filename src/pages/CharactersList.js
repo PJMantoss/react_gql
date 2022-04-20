@@ -1,4 +1,5 @@
 import React from 'react';
+import { useCharacters } from '../hooks/useCharacters';
 import './CharactersList.css';
 
 const CharactersList = () => {
