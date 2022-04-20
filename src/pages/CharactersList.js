@@ -14,7 +14,7 @@ const GET_CHARACTERS = gql`
     }
 `;
 
-function CharactersList(){
+const CharactersList = () => {
   //const obj = useQuery(GET_CHARACTERS); 
   //Or
   const { error, loading, data} = useQuery(GET_CHARACTERS); //Destructured
