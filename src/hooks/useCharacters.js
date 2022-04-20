@@ -15,12 +15,12 @@ const GET_CHARACTERS = gql`
 `;
 
 const useCharacters = () => {
-
     //const obj = useQuery(GET_CHARACTERS); 
   //Or
   const { error, loading, data} = useQuery(GET_CHARACTERS); //Destructured
-  console.log({ error, loading, data});
-  
+
+  //   console.log({ error, loading, data});
+
   return (
     <div>useCharacters</div>
   )
