@@ -16,6 +16,12 @@ const GET_CHARACTER = gql`
 
 export const useCharacter = (id) => {
     const { error, loading, data} = useQuery(GET_CHARACTER, {
-        variables: id
+        variables: id,
     }); //Destructured
+
+    return {
+        loading,
+        error,
+        data
+    }
 };
