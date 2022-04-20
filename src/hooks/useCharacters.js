@@ -13,7 +13,7 @@ const GET_CHARACTERS = gql`
     }
 `;
 
-export default const useCharacters = () => {
+export const useCharacters = () => {
     //const obj = useQuery(GET_CHARACTERS); 
   //Or
   const { error, loading, data} = useQuery(GET_CHARACTERS); //Destructured
