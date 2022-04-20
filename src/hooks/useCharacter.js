@@ -1,8 +1,8 @@
 import { useQuery, gql } from '@apollo/client';
 
 const GET_CHARACTERS = gql`
-    query GetCharacter($id: ID){
-        character (id: 2) {
+    query GetCharacter($id: ID!){
+        character (id: $id) {
             name
             id
             image
