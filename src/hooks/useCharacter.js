@@ -7,8 +7,8 @@ const GET_CHARACTERS = gql`
             id
             image
             episode {
-            name
-            episode
+                name
+                episode
             }
         }
 }
