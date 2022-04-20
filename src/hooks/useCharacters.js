@@ -21,9 +21,10 @@ const useCharacters = () => {
 
   //   console.log({ error, loading, data});
 
-  return (
-    <div>useCharacters</div>
-  )
+  return {
+      error,
+      loading
+  }
 }
 
 export default useCharacters
