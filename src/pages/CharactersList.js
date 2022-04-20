@@ -1,5 +1,4 @@
 import React from 'react';
-import { useQuery, gql } from '@apollo/client';
 import './CharactersList.css';
 
 const GET_CHARACTERS = gql`
