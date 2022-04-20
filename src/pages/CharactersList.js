@@ -24,7 +24,7 @@ const CharactersList = () => {
 
   if(error) return <div>something went wrong...</div>
   
-  return 
+  return (
     <div className='characterList'>
       {data.characters.results.map((character) => {
         return (
@@ -35,7 +35,7 @@ const CharactersList = () => {
         )
       })}
     </div>
-  
+  )
 }
 
 export default CharactersList
