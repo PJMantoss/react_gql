@@ -1,19 +1,6 @@
 import React from 'react';
 import './CharactersList.css';
 
-const GET_CHARACTERS = gql`
-    query {
-        characters{
-          results {
-              id
-              name
-              image
-              gender
-          }
-        }
-    }
-`;
-
 const CharactersList = () => {
   //const obj = useQuery(GET_CHARACTERS); 
   //Or
