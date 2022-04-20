@@ -4,6 +4,8 @@ import './CharactersList.css';
 
 const CharactersList = () => {
 
+  const { loading } = useCharacters();
+
   if(loading) return <div>spinner...</div>
 
   if(error) return <div>something went wrong...</div>
