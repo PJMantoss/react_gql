@@ -21,4 +21,4 @@ const CharactersList = () => {
   )
 }
 
-export default CharactersList
+export default CharactersList;
