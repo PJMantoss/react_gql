@@ -3,9 +3,9 @@ import { useCharacter } from '../hooks/useCharacter';
 import './Character.css'
 
 const Character = () => {
-  const { data, error, loading } = useCharacter(4);
+  const { data, error, loading } = useCharacter(2);
 
-  // console.log({ data, error, loading});
+  console.log({ data, error, loading});
 
   if(loading) return <div>spinner...</div>
 
