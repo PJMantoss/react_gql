@@ -19,7 +19,7 @@ const Character = () => {
         <p>{data.character.gender}</p>
         <div className='character-episode'>
           {data.character.episode.map(episode => {
-            return <div key={data.character.id}>
+            return <div key={episode.episode}>
               {episode.name} - <b>{episode.episode}</b>
             </div>
           })}
