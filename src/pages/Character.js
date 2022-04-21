@@ -16,7 +16,7 @@ const Character = () => {
       <img src={data.character.image} width={750} height={750} />
       <div className='character-content'>
         <h1>{data.character.name}</h1>
-        <p></p>
+        <p>{data.character.gender}</p>
       </div>
     </div>
   )
