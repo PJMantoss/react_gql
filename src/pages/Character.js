@@ -12,7 +12,10 @@ const Character = () => {
   if(error) return <div>something went wrong...</div>
 
   return (
-    <div className='character'>Character</div>
+    <div className='character'>
+      <img />
+      <div></div>
+    </div>
   )
 }
 
