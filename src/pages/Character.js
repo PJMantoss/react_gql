@@ -19,7 +19,9 @@ const Character = () => {
         <p>{data.character.gender}</p>
         <div className='character-episode'>
           {data.character.map(episode => {
-            return <div key={episode.id}></div>
+            return <div key={episode.id}>
+              {episode.name} - <b>{episode.episode}</b>
+            </div>
           })}
         </div>
       </div>
