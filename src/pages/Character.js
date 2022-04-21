@@ -13,7 +13,7 @@ const Character = () => {
 
   return (
     <div className='character'>
-      <img src={} width={} height={} />
+      <img src={} width={750} height={750} />
       <div className='character-content'></div>
     </div>
   )
