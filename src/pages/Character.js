@@ -14,7 +14,7 @@ const Character = () => {
   return (
     <div className='character'>
       <img />
-      <div></div>
+      <div className='character-content'></div>
     </div>
   )
 }
