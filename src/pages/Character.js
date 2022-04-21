@@ -5,7 +5,7 @@ import './Character.css'
 const Character = () => {
   const { loading, error, data } = useCharacter(4);
 
-  console.log({ error, loading, data});
+  // console.log({ error, loading, data});
 
   if(loading) return <div>spinner...</div>
 
