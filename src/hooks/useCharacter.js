@@ -23,5 +23,5 @@ export const useCharacter = (id) => {
         loading,
         error,
         data
-    }
+    };
 };
