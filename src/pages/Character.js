@@ -1,9 +1,11 @@
 import React from 'react';
+import { useParams } from 'react-router-dom';
 import { useCharacter } from '../hooks/useCharacter';
 import './Character.css'
 
 const Character = () => {
-  const { data, error, loading } = useCharacter(3);
+  const {id} = useParams();
+  const { data, error, loading } = useCharacter(id);
 
   // console.log({ data, error, loading});
 
