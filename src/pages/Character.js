@@ -18,7 +18,7 @@ const Character = () => {
         <h1>{data.character.name}</h1>
         <p>{data.character.gender}</p>
         <div className='character-episode'>
-          {data.character.map(episode => {
+          {data.character.episode.map(episode => {
             return <div key={episode.id}>
               {episode.name} - <b>{episode.episode}</b>
             </div>
