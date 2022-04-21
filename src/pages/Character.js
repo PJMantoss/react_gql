@@ -3,7 +3,7 @@ import { useCharacter } from '../hooks/useCharacter';
 import './Character.css'
 
 const Character = () => {
-  const { data, error, loading } = useCharacter(2);
+  const { data, error, loading } = useCharacter(3);
 
   console.log({ data, error, loading});
 
