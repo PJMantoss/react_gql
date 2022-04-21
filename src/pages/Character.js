@@ -7,7 +7,7 @@ const Character = () => {
   console.log({ error, loading, data});
 
   return (
-    <div>Character</div>
+    <div className='character'>Character</div>
   )
 }
 
