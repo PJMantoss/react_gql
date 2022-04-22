@@ -13,7 +13,7 @@ const GET_CHARACTER = gql`
         }
 }
 `;
-//GraphQL Query is for viewing data while Mutation is updating data
+//GraphQL Query (useQuery) is for viewing data while Mutation (useMutation) is updating data
 
 export const useCharacter = (id) => {
     const { data, error, loading } = useQuery(GET_CHARACTER, {
