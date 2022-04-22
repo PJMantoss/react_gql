@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { gql } from '@apollo/client';
 
 const GET_CHARACTER = gql`
-query GetCharacterLocations() {
+query GetCharacterLocations($name: String!) {
   characters (filter: {
     name: "Morty Smith"
   }) {
