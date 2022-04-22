@@ -34,7 +34,7 @@ const Search = () => {
         {data && (
             <ul>
                 {data.characters.results.map(character => {
-                    return <li>{character.location.name}</li>
+                    return <li>{character.location.name}</li>;
                 })}
             </ul>
         )}
