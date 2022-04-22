@@ -4,7 +4,7 @@ const Search = () => {
     const [name, setName] = useState("");
   return (
     <div>
-        <input value={name} onChange={} />
+        <input value={name} onChange={e => e.target.value} />
         <button>Search</button>
     </div>
   )
