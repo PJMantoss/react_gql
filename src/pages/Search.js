@@ -23,6 +23,8 @@ const Search = () => {
         }
     });
 
+    console.log({ loading, error, data, called });
+
   return (
     <div>
         <input value={name} onChange={e => setName(e.target.value)} />
