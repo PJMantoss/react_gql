@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { gql, useLazyQuery } from '@apollo/client';
 
-const GET_CHARACTER = gql`
+const GET_CHARACTER_LOCATIONS = gql`
 query GetCharacterLocations($name: String!) {
   characters (filter: {name: $name}) {
     results {
