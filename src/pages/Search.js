@@ -17,7 +17,7 @@ const Search = () => {
     const [name, setName] = useState("");
     
     //firts element returned is a function "getLocations()" that runs when we want to execute and run this query
-    const [getLocations] = useLazyQuery(GET_CHARACTER_LOCATIONS, {
+    const [getLocations, { loading, error, data }] = useLazyQuery(GET_CHARACTER_LOCATIONS, {
         variables: {
             name
         }
