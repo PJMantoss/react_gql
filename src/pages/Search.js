@@ -3,9 +3,7 @@ import { gql } from '@apollo/client';
 
 const GET_CHARACTER = gql`
 query GetCharacterLocations($name: String!) {
-  characters (filter: {
-    name: "Morty Smith"
-  }) {
+  characters (filter: {}) {
     results {
       location {
         name
