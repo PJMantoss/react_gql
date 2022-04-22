@@ -16,7 +16,9 @@ query GetCharacterLocations($name: String!) {
 const Search = () => {
     const [name, setName] = useState("");
     
-    const [] = useLazyQuery()
+    const [] = useLazyQuery(GET_CHARACTER_LOCATIONS, {
+        variables: {}
+    });
 
   return (
     <div>
