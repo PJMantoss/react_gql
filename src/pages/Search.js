@@ -17,7 +17,9 @@ const Search = () => {
     const [name, setName] = useState("");
     
     const [] = useLazyQuery(GET_CHARACTER_LOCATIONS, {
-        variables: {}
+        variables: {
+            name
+        }
     });
 
   return (
