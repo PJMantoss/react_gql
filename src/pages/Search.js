@@ -31,6 +31,11 @@ const Search = () => {
         <button onClick={() => getLocations()}>Search</button>
         {loading && <div>Spinner...</div>}
         {error && <div>Something went wrong!</div>}
+        {data && (
+            <ul>
+                {data.characters.results.map(character => {})}
+            </ul>
+        )}
     </div>
   )
 }
