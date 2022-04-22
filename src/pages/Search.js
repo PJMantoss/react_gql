@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { gql } from '@apollo/client';
+import { gql, useLazyQuery } from '@apollo/client';
 
 const GET_CHARACTER = gql`
 query GetCharacterLocations($name: String!) {
