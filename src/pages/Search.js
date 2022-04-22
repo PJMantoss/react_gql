@@ -1,4 +1,7 @@
 import React, { useState } from 'react';
+import { useQuery, gql } from '@apollo/client';
+
+const GET_CHARACTER = gql``;
 
 const Search = () => {
     const [name, setName] = useState("");
