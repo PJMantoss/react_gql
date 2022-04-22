@@ -33,7 +33,9 @@ const Search = () => {
         {error && <div>Something went wrong!</div>}
         {data && (
             <ul>
-                {data.characters.results.map(character => {})}
+                {data.characters.results.map(character => {
+                    return <li>{character.location.name}</li>
+                })}
             </ul>
         )}
     </div>
